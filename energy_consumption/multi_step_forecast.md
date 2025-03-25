@@ -212,7 +212,17 @@ print(f"Test Dataloader: {len(test_dl)}")
 
 ```
 
-     11%|█         | 11090/100941 [00:07<00:46, 1916.92it/s]
+    100%|██████████| 100941/100941 [00:59<00:00, 1689.28it/s]
+    100%|██████████| 20990/20990 [00:04<00:00, 4420.69it/s]
+    100%|██████████| 20990/20990 [00:04<00:00, 4389.89it/s]
+
+
+    Train Dataloader: 788
+    Val Dataloader: 163
+    Test Dataloader: 163
+    CPU times: user 1min 3s, sys: 8.97 s, total: 1min 12s
+    Wall time: 1min 27s
+
 
 
 ```python
@@ -264,39 +274,39 @@ plot_multi_sample_forecasts(
 )
 ```
 
-    Epoch 01: 100%|██████████| 788/788 [02:07<00:00,  6.19it/s]
+    Epoch 01: 100%|██████████| 788/788 [02:31<00:00,  5.22it/s]
 
 
-    Epoch 01 | Train Loss: 0.2324 | Val Loss: 0.2187
+    Epoch 01 | Train Loss: 0.2342 | Val Loss: 0.2152
 
 
-    Epoch 02: 100%|██████████| 788/788 [01:56<00:00,  6.74it/s]
+    Epoch 02: 100%|██████████| 788/788 [02:18<00:00,  5.70it/s]
 
 
-    Epoch 02 | Train Loss: 0.1582 | Val Loss: 0.2320
+    Epoch 02 | Train Loss: 0.1574 | Val Loss: 0.2481
 
 
-    Epoch 03: 100%|██████████| 788/788 [01:57<00:00,  6.72it/s]
+    Epoch 03: 100%|██████████| 788/788 [02:20<00:00,  5.61it/s]
 
 
-    Epoch 03 | Train Loss: 0.1360 | Val Loss: 0.2777
+    Epoch 03 | Train Loss: 0.1373 | Val Loss: 0.2585
 
 
-    Epoch 04: 100%|██████████| 788/788 [01:57<00:00,  6.70it/s]
+    Epoch 04: 100%|██████████| 788/788 [02:21<00:00,  5.57it/s]
 
 
-    Epoch 04 | Train Loss: 0.1161 | Val Loss: 0.2749
+    Epoch 04 | Train Loss: 0.1139 | Val Loss: 0.2764
     Early stopping triggered at epoch 4
-    [LSTM] Test MAE: 2906.94
-    [LSTM] Test RMSE: 4142.23
+    [LSTM] Test MAE: 2926.02
+    [LSTM] Test RMSE: 4118.17
 
 
 
 
 
 
-    CPU times: user 2min 28s, sys: 28.4 s, total: 2min 56s
-    Wall time: 8min 49s
+    CPU times: user 2min 14s, sys: 47.6 s, total: 3min 2s
+    Wall time: 10min 28s
 
 
 ### Temporal Convolutional Network
@@ -347,41 +357,39 @@ plot_multi_sample_forecasts(
 
 ```
 
-    Epoch 01:   0%|          | 0/788 [00:00<?, ?it/s]
-
-    Epoch 01: 100%|██████████| 788/788 [01:02<00:00, 12.69it/s]
+    Epoch 01: 100%|██████████| 788/788 [01:02<00:00, 12.67it/s]
 
 
-    Epoch 01 | Train Loss: 0.2739 | Val Loss: 0.2124
+    Epoch 01 | Train Loss: 0.2701 | Val Loss: 0.2147
 
 
-    Epoch 02: 100%|██████████| 788/788 [01:00<00:00, 13.02it/s]
+    Epoch 02: 100%|██████████| 788/788 [01:00<00:00, 12.94it/s]
 
 
-    Epoch 02 | Train Loss: 0.1843 | Val Loss: 0.2300
+    Epoch 02 | Train Loss: 0.1807 | Val Loss: 0.2344
 
 
-    Epoch 03: 100%|██████████| 788/788 [01:00<00:00, 13.03it/s]
+    Epoch 03: 100%|██████████| 788/788 [01:01<00:00, 12.90it/s]
 
 
-    Epoch 03 | Train Loss: 0.1659 | Val Loss: 0.2476
+    Epoch 03 | Train Loss: 0.1597 | Val Loss: 0.2525
 
 
-    Epoch 04: 100%|██████████| 788/788 [01:00<00:00, 12.99it/s]
+    Epoch 04: 100%|██████████| 788/788 [01:01<00:00, 12.83it/s]
 
 
-    Epoch 04 | Train Loss: 0.1525 | Val Loss: 0.2802
+    Epoch 04 | Train Loss: 0.1424 | Val Loss: 0.2323
     Early stopping triggered at epoch 4
-    [TCN] Test MAE: 2922.14
-    [TCN] Test RMSE: 4102.02
+    [TCN] Test MAE: 2577.69
+    [TCN] Test RMSE: 3668.50
 
 
 
 
 
 
-    CPU times: user 1min 2s, sys: 21.2 s, total: 1min 23s
-    Wall time: 4min 25s
+    CPU times: user 58.9 s, sys: 22 s, total: 1min 20s
+    Wall time: 4min 27s
 
 
 ### Transformer
@@ -430,44 +438,39 @@ plot_multi_sample_forecasts(
 
 ```
 
-    Epoch 01: 100%|██████████| 788/788 [07:52<00:00,  1.67it/s]
+    Epoch 01: 100%|██████████| 788/788 [13:16<00:00,  1.01s/it]  
 
 
-    Epoch 01 | Train Loss: 0.2782 | Val Loss: 0.2078
+    Epoch 01 | Train Loss: 0.2760 | Val Loss: 0.2121
 
 
-    Epoch 02: 100%|██████████| 788/788 [07:54<00:00,  1.66it/s]
+    Epoch 02: 100%|██████████| 788/788 [08:26<00:00,  1.56it/s]
 
 
-    Epoch 02 | Train Loss: 0.1630 | Val Loss: 0.2096
+    Epoch 02 | Train Loss: 0.1627 | Val Loss: 0.2199
 
 
-    Epoch 03: 100%|██████████| 788/788 [07:54<00:00,  1.66it/s]
+    Epoch 03: 100%|██████████| 788/788 [09:37<00:00,  1.37it/s]
 
 
-    Epoch 03 | Train Loss: 0.1383 | Val Loss: 0.2299
+    Epoch 03 | Train Loss: 0.1309 | Val Loss: 0.2364
 
 
-    Epoch 04:  84%|████████▎ | 658/788 [06:50<01:21,  1.60it/s]
+    Epoch 04: 100%|██████████| 788/788 [08:47<00:00,  1.49it/s]
+
+
+    Epoch 04 | Train Loss: 0.1096 | Val Loss: 0.2506
+    Early stopping triggered at epoch 4
+    [TF] Test MAE: 2773.90
+    [TF] Test RMSE: 3939.49
 
 
 
-    ---------------------------------------------------------------------------
-
-    KeyboardInterrupt                         Traceback (most recent call last)
-
-    File <timed exec>:10
 
 
-    File ~/Development/ai-applications-in-industry/energy_consumption/utils/training_utils.py:70, in train(model, train_loader, val_loader, optimizer, loss_fn, num_epochs, device, patience, verbose, save_best)
-         68     loss.backward()
-         69     optimizer.step()
-    ---> 70     train_loss += loss.item()
-         72 # Validation
-         73 model.eval()
 
-
-    KeyboardInterrupt: 
+    CPU times: user 1min 46s, sys: 5min 30s, total: 7min 17s
+    Wall time: 42min 1s
 
 
 **Note: Predictions reflect daily and hourly temporal patterns, as seen in the EDA.**
