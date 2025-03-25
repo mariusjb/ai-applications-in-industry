@@ -17,7 +17,7 @@ In the context of volatile energy prices following the Russian invasion of Ukrai
 
 ***Redispatch measures led to costs of up to €2.46 billion in 2023.***
 
-## Experiement for Assignment 1
+## Experiment for Assignment 1
 
 ### Data
 - Hourly energy consumption data from [Kaggle](https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption/data), in /data
