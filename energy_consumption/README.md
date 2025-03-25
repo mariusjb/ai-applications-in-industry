@@ -15,6 +15,8 @@ Having worked for one of Germany’s largest energy producers, including its sub
 
 In the context of volatile energy prices following the Russian invasion of Ukraine, energy independence through renewables has become more urgent than ever. However, despite record renewable capacity, significant amounts of wind and solar energy were curtailed last year due to grid congestion. Redispatch 2.0, also known as Netzengpassmanagement (grid congestion management), regulates electricity feed-in and, in critical situations, can require power plants to ramp down their output (Fahrplananpassung) to ensure net stability. However, ramping down the output of power plants under Redispatch 2.0 significantly increases the cost per kilowatt-hour — often nearly doubling it. This is because, in addition to the prevailing market price for electricity, plant operators receive compensation for the curtailed generation, leading to higher overall system costs. In recent years, this has contributed to a doubling of grid fees, as the compensation costs are passed on to consumers. In turn, this leads to higher electricity prices and undermines public acceptance of renewable energy, despite its environmental benefits. Accurate forecasts that enable optimized grid operations are therefore a crucial component — and the motivator for this experiment.
 
+***Redispatch measures led to costs of up to €2.46 billion in 2023.***
+
 ## Experiement for Assignment 1
 
 ### Data
