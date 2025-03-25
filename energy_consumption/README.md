@@ -1,5 +1,7 @@
 # Energy Consumption Forecasting
 
+Public repository: [https://github.com/mariusjb/ai-applications-in-industry](https://github.com/mariusjb/ai-applications-in-industry)
+
 In this experiment, we explore short- and medium-term energy consumption forecasting using a range of modeling approaches. We begin with a strong baseline — XGBoost, a widely adopted gradient boosting method — and challenge it with more advanced deep learning architectures, including Long Short-Term Memory, Temporal Convolutional Network, and Transformer, to evaluate their ability to capture temporal dynamics and improve predictive accuracy.
 
 ## Why Forecast Energy Consumption?
